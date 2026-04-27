@@ -14,3 +14,15 @@ p {
 a {
     color: #10B981;
 }
+/* Resetea el modelo de caja para todos los elementos */
+* {
+    box-sizing: border-box;
+}
+
+/* Selector por clase — afecta todas las secciones */
+.section {
+    padding: 20px;    /* Espacio DENTRO del borde */
+    margin: 20px 0;   /* Espacio AFUERA del borde (arriba y abajo) */
+    border: 1px solid #ccc;   /* Borde visible */
+    border-radius: 8px;       /* Esquinas redondeadas */
+}
