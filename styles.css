@@ -69,3 +69,35 @@ footer {
     padding: 20px;              /* Espacio interno */
     text-align: center;         /* Centra el texto */
 }
+
+/* Flexbox para la navegación */
+nav {
+    display: flex;          /* Activa flexbox */
+    justify-content: center; /* Centra los links horizontalmente */
+    gap: 20px;              /* Espacio entre cada link */
+    margin-top: 15px;       /* Separación del texto arriba */
+}
+
+/* Estilo de los links del nav */
+nav a {
+    color: white;           /* Links blancos sobre el header oscuro */
+    text-decoration: none;  /* Quita el subrayado */
+    font-weight: bold;      /* Texto en negrita */
+}
+
+/* Flexbox para la lista de proyectos */
+ul {
+    display: flex;          /* Activa flexbox */
+    flex-direction: column; /* Los proyectos van uno debajo del otro */
+    gap: 15px;              /* Espacio entre cada proyecto */
+    padding: 0;             /* Quita el padding por defecto de la lista */
+    list-style: none;       /* Quita los puntos de la lista */
+}
+
+/* Cada proyecto como una tarjeta */
+ul li {
+    background-color: white;  /* Fondo blanco */
+    padding: 15px;            /* Espacio interno */
+    border-radius: 8px;       /* Esquinas redondeadas */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08); /* Sombra suave */
+}
