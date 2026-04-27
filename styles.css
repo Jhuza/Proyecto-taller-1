@@ -19,6 +19,15 @@ a {
     box-sizing: border-box;
 }
 
+/* Estilo para la foto de perfil */
+img {
+    width: 150px;        /* Tamaño fijo */
+    height: 150px;       /* Mismo alto que ancho para que sea cuadrada */
+    border-radius: 50%;  /* La hace circular */
+    display: block;      /* Necesario para que el margin auto funcione */
+    margin: 0 auto;      /* Centra la imagen horizontalmente */
+}
+
 /* Selector por clase — afecta todas las secciones */
 .section {
     padding: 20px;    /* Espacio DENTRO del borde */
