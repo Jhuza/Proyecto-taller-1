@@ -101,3 +101,28 @@ ul li {
     border-radius: 8px;       /* Esquinas redondeadas */
     box-shadow: 0 2px 6px rgba(0,0,0,0.08); /* Sombra suave */
 }
+
+/* Estilos para pantallas pequeñas (celular) */
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;      /* Menos padding en móvil */
+    }
+
+    header {
+        padding: 15px;      /* Header más compacto */
+    }
+
+    /* El nav se vuelve vertical en móvil */
+    nav {
+        flex-direction: column;  /* Links uno debajo del otro */
+        gap: 10px;
+    }
+
+    /* La foto se achica un poco en móvil */
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+}
