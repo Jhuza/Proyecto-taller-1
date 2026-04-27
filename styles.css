@@ -126,3 +126,40 @@ ul li {
     }
 
 }
+
+/* Estilo general de todos los enlaces */
+a {
+    color: #3498db;             /* Azul bonito */
+    transition: color 0.3s ease; /* Transición suave al hacer hover */
+}
+
+/* Color al pasar el mouse por encima */
+a:hover {
+    color: #2980b9;             /* Azul más oscuro al hacer hover */
+}
+
+/* Foto con sombra y bordes bonitos */
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2); /* Sombra suave */
+    border: 3px solid white;                /* Borde blanco alrededor */
+    margin-bottom: 15px;                    /* Espacio debajo de la foto */
+}
+
+/* Centra el contenido principal */
+main {
+    max-width: 800px;       /* Ancho máximo para que no se estire mucho */
+    margin: 30px auto;      /* Centra el main horizontalmente */
+    padding: 0 20px;        /* Padding lateral */
+}
+
+/* Títulos de sección */
+h2 {
+    color: #2c3e50;         /* Mismo azul oscuro del header */
+    border-bottom: 2px solid #3498db; /* Línea azul debajo del título */
+    padding-bottom: 8px;    /* Espacio entre texto y línea */
+}
