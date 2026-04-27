@@ -35,3 +35,37 @@ img {
     border: 1px solid #ccc;   /* Borde visible */
     border-radius: 8px;       /* Esquinas redondeadas */
 }
+
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Fuente limpia y legible */
+    background-color: #f5f5f5;      /* Fondo gris muy suave */
+    color: #333;                    /* Color de texto general */
+    line-height: 1.6;               /* Espaciado entre líneas */
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #2c3e50;  /* Azul oscuro */
+    color: white;               /* Texto blanco */
+    padding: 30px;              /* Espacio interno */
+    text-align: center;         /* Centra todo el contenido */
+}
+
+/* El h1 dentro del header debe ser blanco */
+header h1 {
+    color: white;
+}
+
+/* El párrafo dentro del header también */
+header p {
+    color: #cbd5e1;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #2c3e50;  /* Mismo color que el header */
+    color: white;               /* Texto blanco */
+    padding: 20px;              /* Espacio interno */
+    text-align: center;         /* Centra el texto */
+}
